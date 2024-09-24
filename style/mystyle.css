@@ -1,0 +1,364 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+#main 
+{
+    width:960px;
+    border:1px solid black;
+    min-height:650px;
+    margin: 0px auto;
+
+}
+#header
+{
+    height: 150px;
+    border-bottom: 1px solid black;
+   
+}
+#searchBar
+{
+    height: 50px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+#welcomeUser
+{ 
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    top: 123px;
+    left: 38%;
+}
+#welcomeUser a
+{
+    -webkit-text-stroke:.5px black;
+    color: #3d6cb9;
+    text-decoration: none;
+    background-color: #00fff0;
+}
+#leftLogo,#rightLogo
+{
+    width: 150px;
+    height: 100%;
+    background-color: #00fff0;
+    float: left;
+
+}
+#title
+{
+    background-color:white;
+    width: 660px;
+    height: 100%;
+    float: left;
+    background-color: #3d6cb9;
+}
+#content
+{
+    min-height: 450px;
+}
+#footer
+{
+    color:white;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #3d6cb9;
+}
+#footer a
+{
+    color: white;
+    text-decoration: none;
+}
+#footer a:hover
+{
+    font-size: 22px;
+    transition: .4s;
+}
+#leftLogo img , #rightLogo img 
+{
+    width: 100%;
+    height: 100%;
+}
+#title h1
+{
+    margin: 0px;
+    text-align: center;
+    color:yellow;
+    font-size: 50px;
+    margin:15px 0px 0px 0px;
+    padding: 0px;
+    text-shadow: 3px 3px 15px black;
+}
+#title h3 
+{
+    margin: 0px;
+    text-align: center;
+    color:aliceblue;
+    text-shadow: 3px 3px 5px black;
+}
+#spn
+{
+    margin: 0px;
+    text-align: center;
+    color:aliceblue;
+    text-shadow: 1.5px 1.5px 2px black;
+}
+#loginDiv
+{
+    margin: 5px;
+    text-align: right;
+}
+
+#myForm 
+{
+    width: 500px;
+    border:3px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    min-height: 250px;
+    font-size:20px ;
+   background-color: #00fff0;
+}
+#myForm label 
+{
+    display: block;
+    margin: 5px 0px;
+    
+}
+
+#myForm input[type="text"],#myForm input[type="password"],#myForm input[type="date"],#myForm textarea,#myForm select
+{
+  border:1px solid black;
+  width: 90%;
+  height: 30px;
+  font-size: 20px;
+  padding: 2px 10px;
+}
+#buttonGroup
+{
+    text-align: center;
+}
+#buttonGroup input[type="submit"],#buttonGroup input[type="reset"],#buttonGroup input[type="button"]
+{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: black;
+    color:white;
+    border-radius: 10px 0px;
+    
+}
+#resmsg
+{
+    background-color: red;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border:3px solid black;
+    margin: 10px;
+}
+#adminArea
+{
+   height:auto;
+
+   border-bottom:3px solid black;
+   border-top:3px solid black;
+}
+#leftAdminArea
+{
+  width:150px;
+  min-height:100%;
+  background-color: #3d6cb9;
+   display:inline-block;
+   vertical-align:top;
+}
+#rightAdminArea
+{
+    width:800px;
+    height:auto;
+    display:inline-block;
+    vertical-align:top;
+}
+#adminMenu
+{
+  width:100%;
+  height:100%;	
+}
+#adminMenu ul
+{
+  margin:0px;
+  padding:0px;	
+  list-style:none;
+}
+#adminMenu ul li
+{
+  padding-left: 0px;
+  color:Yellow;	
+  line-height:26px;
+}
+#adminMenu ul li a
+{
+  color:white;
+  text-decoration:none;	
+  line-height:26px;
+  display:block;
+}
+#adminMenu ul li a:hover
+{
+              padding: 0px 0px 0px 13px;
+              transition: .4s;
+	background-color: white;
+	color:black;
+           ;
+}
+#categoryArea
+{
+    padding-left: 10px;
+}
+.category
+{
+    width: 190px;
+    height: 200px;
+    border:2px solid black;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    text-align: center;
+}
+.item
+{
+    width: 190px;
+    height: 330px;
+    border:2px solid black;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    text-align: center;
+}
+.buyButton
+{
+    width: 100px;
+    height: 40px;
+    background-color: #00fff0;
+    margin: 10px auto;
+    line-height: 40px;
+    border-radius: 10px;
+}
+.buyButton a
+{
+    text-decoration: none;
+    line-height: 40px;
+    display: block;
+    color: #3d6cb9;
+}
+.buyButton a:hover
+{
+    border: 2px solid black;
+    background-color: #3d6cb9;
+    color: #00fff0;
+    border-radius: 10px;
+    -webkit-text-stroke: 0.5px black;
+}
+#placeOrder
+{
+    border: 0.5px solid black;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    font-size: 24px;
+    margin: 30px auto;
+}
+#placeOrder a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+#placeOrder a:hover
+{
+    background-color: white;
+    color: black;
+    transition: .4s;
+}
+#replyBtn
+{
+    border: 0.5px solid black;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    font-size: 24px;
+    margin: 30px auto;
+}
+#replyBtn a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+#replyBtn a:hover
+{
+    background-color: white;
+    color: black;
+    transition: .4s;
+}
+#myList
+{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    width: 700px;
+    height: 420px;
+    overflow: scroll;
+}
+#buttonGroup input[type=submit]
+{
+    border: 0.5px solid black;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    font-size: 24px;
+    margin: 30px auto;
+}
+#buttonGroup input[type=reset]
+{
+    border: 0.5px solid black;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    font-size: 24px;
+    margin: 30px auto;
+}
+#buttonGroup input[type=submit]:hover
+{
+    background-color: white;
+    color: black;
+    transition: .4s;
+}
+#buttonGroup input[type=reset]:hover
+{
+    background-color: white;
+    color: black;
+    transition: .4s;
+}
